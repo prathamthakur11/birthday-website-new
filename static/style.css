@@ -1,0 +1,47 @@
+body {
+    background: #fff0f5;
+    font-family: 'Segoe UI', sans-serif;
+    color: #d6336c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.countdown {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.reasons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.reason {
+    background: #ffe6ea;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.music-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
